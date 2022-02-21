@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Coinage</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:admin@coinagefinance.co.za">admin@coinagefinance.co.za</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>083 884 3323</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html">Coinage <p class="slogan">Your Online Financial Service</p></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+         
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container " data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-7 col-xl-7">
+       <h5 class="intro">Coinage Financial Services NCRCP15027 offers loans of up to R4000.00 through a convenient online application process to customers who are permanently employed and earn above R4000.00 per month and with a favorable credit record and qualification based on affordability criteria.</h5>
+          <p></p>
+       <p>
+        <a href="#about" class="btn-get-started scrollto mt-4">Apply For Loan</a>
+      </p>
+        </div>
+        <div class="col-lg-5 col-xl-5">
+          <div class="card">
+            <div class="card-header">
+              How much you want
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <input id="amount" class="text-center" placeholder="Enter Amount">
+              </li>
+              <li class="list-group-item">
+                <input id="months" class="text-center"  placeholder="How Many Months ">
+              </li>
+              <li>
+                <p id="payment"></p>
+                <p id="total"></p>
+              </li>
+              <li class="list-group-item">
+                <div class="btn btn-primary " onclick="computeLoan();" >Calculate</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+ 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
+          </div>
+
+          <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="box-heading" data-aos="fade-up">
+              <h4>About us</h4>
+              <h3>Practical Financial Advice You Can Count On</h3>
+              <p>We have multiple payment options that enable our clients to have a variety of payment options that them. We understand the need and the diverse challenges of people, and the way they understand and process things differently, and we tend to provide a suitable platform that suits all and sundry equally.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="">Our Vision</a></h4>
+              <p class="description">To Build Loan Services Brand Which Will Become The Lead Choice For Individuals In The Whole Of South Africa.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="">Our Mission</a></h4>
+              <p class="description">Our mission is to provide professional, reliable and trusted microloan services that assist individuals in achieving their short term financial needs with little or no stress. We are one of the leading brands in the loan services line of business in the whole of South Africa and we want to achieve this through our team of motivated and customer-centric employees.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Why Us</h2>
+          <h3>Why you shoud <span>choose us</span>?</h3>
+          <p>We understand how to effectively guide you through the loan process and avoid potential problems along the way.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up">
+              <span>01</span>
+              <h4>Dedicated Specialists</h4>
+              <p>Just because it’s a small loan, it doesn’t mean it’s not important. If you need to know your current balance, the status of your loan, your repayment dates or get another loan, then you can log onto our secure client area and it’s all there. Alternatively you can call on 0822114889, Alt 0838843323, or get us on chat during business hours.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+              <span>02</span>
+              <h4>Responsible Lender</h4>
+              <p>We take our obligations seriously and we don’t want to lend you money if you can’t afford to repay it. This takes our total focus every day</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <span>03</span>
+              <h4> Fast Cash</h4>
+              <p>Our application form should take you no longer than 5 minutes to complete. Usually we’ve processed your loan a short-time later with the money on its way to your bank account in minutes</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-4 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+
+          <div class="col-lg-4  col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-4 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Apply For A Loan</h3>
+          <p> Calculate Your Loan & Interest Online. <br> You can find out how much you want and the related costs right here.</p>
+          <a class="cta-btn" href="#">Apply For A Loan</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/aboutb.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/about3.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/feature2-free-img.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            
+            <div class="portfolio-description">
+              <p>Our Services</p>
+              <h1>Loans  from R400 To R4000 </h1>
+              <p><h3>Micro Loans</h3></p>
+              <p> Coinage Financial Services offers loans of up to R4000.00 through a convenient online application process to customers who are permanently employed and earn above R4000.00 per month and with a favorable credit record and qualification based on affordability criteria.
+              </p>
+              <p><h4>Benefits</h4></p>
+              <ul>
+                <li>Get up to R4000.00 loan</li>
+                <li>Cover your emergency cash needs.</li>
+                <li>Access easy online loans.</li>
+                <li>Convenient and easy application process.</li>
+                <li>Friendly and helpful staff</li>
+              </ul>
+              <div class="btn btn-primary">Apply Now</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <p></p>
+      <!-- Investment container-->
+      <div class="container mt-4">
+
+        <div class="row gy-4">
+
+
+          <div class="col-lg-6">
+            
+            <div class="portfolio-description">
+              <h1>Investments </h1>
+              <p> This product is designed for any investor who wants to see their money grow. Invest as little as R1 000 per month.
+              </p>
+              <p><h4>What do we do with your money?</h4></p>
+              <ul>
+                <li>Coinage will loan out your money and perform all the required tasks from finding the client to collection of the funds.</li>
+                <li>We will be doing all the promotions and marketing with no extra cost to you.</li>
+                <li>We will manage the entire process and all client interactions with no extra cost to you.</li>
+                <li> We will be taking care of the operational cost, legal cost and all the collection process for you.</li>
+              </ul>
+              <div class="btn btn-primary">Talk To Us About Investing</div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="portfolio-description">
+              <h1>Investor’s Benefit </h1>
+              <ul>
+                <li>Start investing at the minimum of R1 000.00 or more depends on your affordability for a fix period of 12 Months, 24 Months and 36 Months.</li>
+                <li>Interest starts from 3% compounding to 4% on compound per month.</li>
+                <li>3% interest for 12 Months compounding</li>
+                <li> 3.5% interest for 24 Months compounding</li>
+                <li>4% interest for 36 Months compounding</li>
+                <li>Having an Investment with us grants access to any of our credit facilities which can be explained by the client.</li>
+                <li>You can have multiple investment with us should you want to invest at any time.</li>
+                <li> All investment can be done via EFT and send us proof of payment.</li>
+                <li>We can create an investment goal with us by paying us monthly and we can start investing once we reach the goal.</li>
+                <li> Best rates ever and investor earn high returns on your investment.</li>
+                <li> This investment brings you a better interest rate than any other savings account with easy access to your money.</li>
+                <li>  Convenient and easy application process.</li>
+                <li> Pay out to designated bank accounts.</li>
+                <li>No financial management fees</li>
+                <li> Guaranteed return on your money.</li>
+                <li> We will be transparent to all investors.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+  
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Team</h2>
+          <h3>Our Hard Working <span>Team</span></h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/mandela.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Nelson Mandela</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/black.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Black Coffee</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/jacob.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Jacob Zuma</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/amiFaku.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ami Faku</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/black.jpg" class="testimonial-img" alt="">
+                <h3>Black Coffee</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    professional services at affordable interests
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/jacob.jpg" class="testimonial-img" alt="">
+                <h3>Jacob Zuma</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    professional services at affordable interests
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/mandela.jpg" class="testimonial-img" alt="">
+                <h3>Mandela</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    professional services at affordable interests
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/amiFaku.jpg" class="testimonial-img" alt="">
+                <h3>Ami Faku</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    professional services at affordable interests
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>F.A.Q</h2>
+          <h3>Frequently Asked <span>Questions</span></h3>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What are the interests rate <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                33
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What are the interests rate  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  33%
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What are the interests rate <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  33%
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Contact</h2>
+          <h3>Check our <span>Contact</span> Details</h3>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3601.9554297843197!2d30.976075215015065!3d-25.47316368376859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s32%20Bell%20Street.%20Office%20Suite%20409A%20Caltex%20Building%201200%20Mbombela%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1645431043919!5m2!1sen!2sza"  allowfullscreen="" loading="lazy"></iframe>
+           </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>
+                  32 Bell Street. Office Suite 409A Caltex Building 1200 Mbombela, South Africa</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>admin@coinagefinance.co.za</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>083 884 3323</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row  justify-content-center">
+          <div class="col-lg-6">
+            <h3>Coinage</h3>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Coinage</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">Tumelo Nkambule</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/calculator.js"></script>
+
+</body>
+
+</html>
